@@ -45,3 +45,25 @@ button.edit {
 .top-30 {
   margin-top: 30px;
 }
+
+#searchput {
+
+  width:700px;
+  margin-right:3%;
+  margin-left:16%;
+  float:left;
+}
+
+#searchbut {
+
+  width:200px;
+}
+
+.content {
+
+  background-color: #A9A9A9;
+  border-style: solid;
+  border-color: #6495ED;
+
+  
+}
