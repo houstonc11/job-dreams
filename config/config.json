@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "root",
-    "password": "server",
-    "database": "blogger_db",
-    "host": "127.0.0.1",
+    "password": "admin",
+    "database": "gitjob",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {

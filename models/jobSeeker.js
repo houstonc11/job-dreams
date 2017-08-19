@@ -1,41 +1,75 @@
 module.exports = function(sequelize, DataTypes) {
-  var jobSeeker = sequelize.define("jobSeeker", {
+  var Jobseeker = sequelize.define("Jobseeker", {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        len: [1]
+        len: [5],         
+        notEmpty: true           
       }
     },
     email: {
       type: DataTypes.TEXT,
       allowNull: false,
-      len: [1]
+      validate: {
+        len: [5],
+        isEmail: true,    
+        notEmpty: true      
+      }
     },
     github: {
       type: DataTypes.TEXT,
       allowNull: false,
       validate: {
-        len: [1]
+        len: [10],          
+        isUrl: true,   
+        notEmpty: true      
       }
     },
     linkedin: {
       type: DataTypes.TEXT,
       allowNull: false,
       validate: {
-        len: [1]
+        len: [10],          
+        isUrl: true,     
+        notEmpty: true   
       }
     },
+    phone: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+      validate: {
+        isNumeric: true   
+      }
+    }
   });
 
-  jobSeeker.associate = function(models) {
-    // Associating Author with Posts
-    // When an Author is deleted, also delete any associated Posts
-    jobSeeker.hasMany(models.skills, {
+  //1 to many
+  Jobseeker.associate = function(models) {
+    Jobseeker.hasMany(models.SkillSet, {
+      onDelete: "cascade"
+    });
+  };
+
+  Jobseeker.associate = function(models) {
+    Jobseeker.hasMany(models.Education, {
+      onDelete: "cascade"
+    });
+  };
+
+  //1 to 1
+  Jobseeker.associate = function(models) {
+    Jobseeker.hasOne(models.Experience, {
+      onDelete: "cascade"
+    });
+  };
+
+  Jobseeker.associate = function(models) {
+    Jobseeker.hasOne(models.Education, {
       onDelete: "cascade"
     });
   };
 
 
-  return jobSeeker;
+  return Jobseeker;
 };
