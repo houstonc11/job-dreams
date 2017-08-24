@@ -156,8 +156,8 @@ $(document).ready(function () {
 
 	          name.text("Name: " + data[i].name);
 	          email.text("Email: " + data[i].email);
-	          linkedin.html("Linkedin: " + "<a class='linkedinURL' href='" + data[i].linkedin + "'>" + data[i].linkedin);
-	          github.html("Github: " + "<a class='githubURL' href='" + data[i].github + "'>" + data[i].github);
+	          linkedin.html("Linkedin: " + "<a class='linkedinURL' target=_blank href='" + data[i].linkedin + "'>" + data[i].linkedin);
+	          github.html("Github: " + "<a class='githubURL' target=_blank href='" + data[i].github + "'>" + data[i].github);
 	          languages.text("Proficient in: " + skills);
 	          education.text("Education: " + edu);
 	          exp.text("Experience: " + experiencia);
