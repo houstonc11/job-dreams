@@ -36,7 +36,7 @@ $(document).ready(function () {
 
 		var employerdata = {
 
-			highschool: checkedEducation[0],
+			highSchool: checkedEducation[0],
 			college:checkedEducation[1],
 			compScience:checkedEducation[2],
 			masters:checkedEducation[3],
@@ -104,8 +104,8 @@ $(document).ready(function () {
          	if(data[i].Skillsets[0].ruby) {
          		skills.push("Ruby"); 
          	}
-         	if(data[i].Education[0].highschool) {
-         		edu.push("Highschool"); 
+         	if(data[i].Education[0].highSchool) {
+         		edu.push("HighSchool"); 
          	}
          	if(data[i].Education[0].college) {
          		edu.push("College"); 
@@ -231,7 +231,7 @@ $(document).ready(function () {
 			projectURL2: projectURL2,
 			projectDescription1: projectDescription1,
 			projectDescription2: projectDescription2,
-			highschool: checkedEducation[0],
+			highSchool: checkedEducation[0],
 			college:checkedEducation[1],
 			compScience:checkedEducation[2],
 			masters:checkedEducation[3],

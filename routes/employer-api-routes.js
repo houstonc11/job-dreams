@@ -79,7 +79,7 @@ module.exports = function (app){
             {
                 model: db.Education,
                 where: {
-                    highschool: req.body.highschool,
+                    highSchool: req.body.highSchool,
                     college: req.body.college,
                     compScience: req.body.compScience,
                     masters: req.body.masters,
