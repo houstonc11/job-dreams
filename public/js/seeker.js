@@ -150,7 +150,7 @@ $(document).ready(function () {
 	          var languages = $("<div>");
 	          var education = $("<div>");
 	          var exp = $("<div>");
-	          var spacer = $("<hr>");
+	          var spacer = $("<br>");
 
 
 
