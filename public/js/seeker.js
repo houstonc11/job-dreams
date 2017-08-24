@@ -69,58 +69,58 @@ $(document).ready(function () {
          for(i=0;i<1;i++) {
 
          	if(data[i].Skillsets[0].html) {
-         		skills.push("HTML"); 
+         		skills.push(" HTML"); 
          	}
             if(data[i].Skillsets[0].css) {
-         		skills.push("CSS"); 
+         		skills.push(" CSS"); 
          	}
          	if(data[i].Skillsets[0].javascript) {
-         		skills.push("Javascript"); 
+         		skills.push(" Javascript"); 
          	}
          	if(data[i].Skillsets[0].c_sharp) {
-         		skills.push("C#"); 
+         		skills.push(" C#"); 
          	}
          	if(data[i].Skillsets[0].node) {
-         		skills.push("Node"); 
+         		skills.push(" Node"); 
          	}
          	if(data[i].Skillsets[0].mysql) {
-         		skills.push("Mysql"); 
+         		skills.push(" Mysql"); 
          	}
          	if(data[i].Skillsets[0].express) {
-         		skills.push("Express"); 
+         		skills.push(" Express"); 
          	}
          	if(data[i].Skillsets[0].react) {
-         		skills.push("React"); 
+         		skills.push(" React"); 
          	}
          	if(data[i].Skillsets[0].mongodb) {
-         		skills.push("Mongodb"); 
+         		skills.push(" Mongodb"); 
          	}
          	if(data[i].Skillsets[0].python) {
-         		skills.push("Python"); 
+         		skills.push(" Python"); 
          	}
          	if(data[i].Skillsets[0].angular) {
-         		skills.push("Angular"); 
+         		skills.push(" Angular"); 
          	}
          	if(data[i].Skillsets[0].ruby) {
-         		skills.push("Ruby"); 
+         		skills.push(" Ruby"); 
          	}
          	if(data[i].Education[0].highSchool) {
-         		edu.push("HighSchool"); 
+         		edu.push(" HighSchool"); 
          	}
          	if(data[i].Education[0].college) {
-         		edu.push("College"); 
+         		edu.push(" College"); 
          	}
          	if(data[i].Education[0].compScience) {
-         		edu.push("Computer Science Degree"); 
+         		edu.push(" Computer Science Degree"); 
          	}
          	if(data[i].Education[0].masters) {
-         		edu.push("Masters Degree"); 
+         		edu.push(" Masters Degree"); 
          	}
          	if(data[i].Education[0].bootcamp) {
-         		edu.push("Coding Bootcamp"); 
+         		edu.push(" Coding Bootcamp"); 
          	}
          	if(data[i].Education[0].selftaught) {
-         		edu.push("Self-Taught"); 
+         		edu.push(" Self-Taught"); 
          	}
          	if(data[i].Experience.novice) {
          		experiencia.push("No experience"); 
