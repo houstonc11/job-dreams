@@ -17,6 +17,6 @@
   2) An employer will click the "Find a Star" button specify the qualities they are looking for in an employee.
   3) If the employer's search criteria matches that of the potential employee, the data of that person will then be displayed to the employer.
   
-Finding a job and the finding the right employee in today's market can be difficult. GitJob simplifies the process by matching potential hires with employers in a simplistic easy to use interface. The job you've always wanted is out there, now come git it!
+Navigating today's job market can be difficult. GitJob simplifies the process by matching potential hires with employers in a simplistic easy to use interface. The job you've always wanted is out there, now go git it!
 
 
